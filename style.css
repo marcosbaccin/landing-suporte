@@ -133,3 +133,12 @@ h3 { font-size: 1.05rem; margin-bottom: .4rem; }
 .kit-preco { font-size: 1.05rem; margin-bottom: .5rem; }
 .kit-preco strong { color: var(--gold-soft); }
 .kit-pagamento { color: var(--muted); font-size: .9rem; margin-bottom: 1.25rem; }
+
+.kit-img {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  display: block;
+}
